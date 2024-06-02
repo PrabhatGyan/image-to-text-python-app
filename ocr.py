@@ -4,7 +4,7 @@ from PIL import Image #Image Processing
 import numpy as np #Image Processing 
 
 #title
-st.title("Easy OCR - Extract Text from Images")
+st.title("NCVPRIPG'24: Auto-Eval Challenge")
 
 #subtitle
 st.markdown("## Optical Character Recognition - Using `easyocr`, `streamlit`")
@@ -12,7 +12,7 @@ st.markdown("## Optical Character Recognition - Using `easyocr`, `streamlit`")
 st.markdown("")
 
 #image uploader
-image = st.file_uploader(label = "Upload your image here",type=['png','jpg','jpeg'])
+image = st.file_uploader(label = "Please upload your image here",type=['png','jpg','jpeg'])
 
 
 @st.cache
@@ -44,7 +44,7 @@ if image is not None:
 else:
     st.write("Upload an Image")
 
-st.caption("Made with ❤️ by @1littlecoder")
+st.caption("Made with ❤️ by Team: IIT Jodhpur")
 
 
 
